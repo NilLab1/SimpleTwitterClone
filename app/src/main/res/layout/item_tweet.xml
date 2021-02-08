@@ -21,8 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/tvName"
         tools:text="panda1234" />
 
     <TextView
@@ -46,5 +47,16 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="4dp"
         tools:text="8h" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textStyle="bold"
+        tools:text="Panda Can" />
 
 </RelativeLayout>
